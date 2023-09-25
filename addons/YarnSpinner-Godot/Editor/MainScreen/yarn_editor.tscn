@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dh046o8dh2lj8"]
+
+[ext_resource type="PackedScene" uid="uid://dhxu5mqs7cdc6" path="res://addons/YarnSpinner-Godot/Editor/MainScreen/text_edit_area.tscn" id="1_s6ls0"]
+
+[node name="YarnEditor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextContainer" parent="." instance=ExtResource("1_s6ls0")]
+layout_mode = 1

@@ -20,6 +20,7 @@ bg_color = Color(0.14902, 0.309804, 0.419608, 1)
 bg_color = Color(0.1044, 0.21576, 0.29, 1)
 
 [resource]
+Button/font_sizes/font_size = 16
 Button/styles/focus = SubResource("3")
 Button/styles/hover = SubResource("3")
 Button/styles/normal = SubResource("1")
